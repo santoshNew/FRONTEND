@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title> PrecisionMapper </title>
+  
+ <!--  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+  <!-- 
+  <link rel="stylesheet" type="text/sass" href="sass/home.css.scss">
+  <link rel="stylesheet" type="text/sass" href="sass/bootstrap.css.scss"> -->
+<link rel="stylesheet" type="text/sass" href="css/production.min.css"> 
+
+  <!--<script src="js/jquery.js?body=1" type="text/javascript"></script>
+  <script src="js/jquery-scrollto.js?body=1" type="text/javascript"></script>
+  <script src="js/custom-scroll.js?body=1" type="text/javascript"></script>
+  <script src="js/custom.js?body=1" type="text/javascript"></script>
+  <script src="js/jquery.localscroll-1.2.7-min.js?body=1" type="text/javascript"></script>
+  <script src="js/modernizr.js?body=1" type="text/javascript"></script>
+  <script src="js/home.js?body=1" type="text/javascript"></script>-->
+<script src="js/build/production.min.js" type="text/javascript"></script>
+  <script>
+      // When the document is loaded...
+      $(document).ready(function () {
+          $('#section_ids #home').localScroll({
+              target:'body'
+          });
+          var windowHeight = $(window).height()
+          var homeScreenHeight = windowHeight - 206;
+          $('#home').css('min-height', homeScreenHeight);
+
+      });
+      $(window).resize(function (){
+          var windowHeight = $(window).height()
+          var homeScreenHeight = windowHeight - 206;
+          $('#home').css('min-height', homeScreenHeight);
+      });
+  </script>
+  <style type="text/sass">
+   body
+    background: #F00
+  </style>
+</head>
+<body class="phmBody">
+<div class="navbar navbar-fixed-top pmMain">
+  <div class="topWebAddress">
+    <a href="http://precisionmapper.com/" class="pMapperAdder active">PRECISIONMAPPER</a>
+    <a href="http://precisionhawk.com/" class="pHawkAddr">PRECISIONHAWK</a>
+  </div>
+  <div class="topBg">
+    <div class="container">
+      <a href="#" class="pMapperHeaderLogo"></a>
+
+      <div class="navWrapper pmNavMobile">
+        <ul class="nav pmNavbar">
+          <li><a href="#your_imagery">YOUR IMAGERY</a></li>
+          <li><a href="#manage_data">MANAGE DATA</a></li>
+          <li><a href="#big_data">BIG DATA</a></li>
+          <li><a href="#pricing">PRICING</a></li>
+          <li><a href="#hardware">HARDWARE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li>
+            <!--<button class="btn">LOGIN</button>-->
+            <span>
+              <button class="btn">LOGIN</button>
+            </span>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!--Top is close here-->
+<div id="section_ids">
+<section id="home" class="bg_home">
+  <div class="container">
+    <div class="span10 homeContainer">
+      <div class="homeHeading">
+        <h1>MANAGE YOUR AERIAL DATA WITH EASE.</h1>
+        The Complete End-to-End Enterprise Data Solution.
+      </div>
+      <div class="homeInfo clearfix">
+        <div class="span3 homeInfoData">
+          Automated Data Uploading
+        </div>
+        <div class="span3">
+          <button class="btn">SIGN UP</button>
+        </div>
+        <div class="span3 homeInfoData">
+          Store, Manage and Share
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home_bottom">
+    <div class="container">
+      <div class="span6 home_bottom_info">
+        <p>PrecisionMapper is a cloud-based application that gives anyone the ability to upload, store, process and
+          share their aerial image data easier and more cost effective.</p>
+        <a href="#your_imagery"><span class="phImageSprite icon_moveDown" ></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Home section Ends -->
+
+<section id="your_imagery">
+  <div class="container">
+    <div class="imagery_container clearfix">
+      <div class="span6 imageryHeading">
+        <h1>YOUR IMAGERY, INSTANTLY</h1>
+        With In-Field Technology
+      </div>
+      <div class="imageryInfo">
+        <div class="span3 imageryInfoData">
+          <div class="circleWrap">
+            <div class="circle">
+              <img src="images/circle.png">
+              <span>UAV</span>
+            </div>
+            <div class="circleInfo">
+              Use any UAV platform, like the PrecisionHawk, to perform your data collection.
+            </div>
+          </div>
+          <span class="phImageSprite icon_arrow_right"></span>
+        </div>
+        <div class="span5 imageryMacBookWrap">
+          <div class="macBook"> <img src="images/macBookPro.png"></div>
+          <div class="macBookInfo">
+            <h2>IN-FIELD APPLICATION</h2>
+            Validating your data in-field saves time and money. Instantly see your survey with an in-field mosaic, view
+            full resolution images, flight path, overlap quality ratings while you’re uploading your surveys.
+          </div>
+        </div>
+        <div class="span3 imageryInfoData">
+          <span class="phImageSprite icon_arrow_right"></span>
+          <div class="circleWrap2">
+            <div class="circle">
+              <img src="images/circle.png">
+              <span>CLOUD</span>
+            </div>
+            <div class="circleInfo">
+              A secure connection that supports start and stop uploading. Initiate uploading in the field, and resume
+              once you’re back at the office.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Your Imagery Ends -->
+
+<section id="manage_data">
+  <div class="container">
+    <div class="manageDataContainer">
+      <div class="manageDataHeading">
+        <h1>MANAGE AND SHARE</h1>
+      </div>
+      <div class="manageDataInfoWrap clearfix">
+        <div class="span4 manageDataLeft">
+          <h2>IN THE OFFICE AND ON THE GO</h2>
+
+          <p>A fully responsive website enables you to view your surveys from a computer, tablet or smartphone.</p>
+
+          <p>PrecisionMapper enables you to find the survey data you need with filters by: date the survey was
+            performed, name of survey, sensor used, and status.</p>
+
+          <p>Share collected data with anyone you choose.</p>
+        </div>
+        <div class="manageDataImageWrap">
+          <img src="images/mac_iapd_iphone.png" alt="PrecisionMapper-Mac-Ipad-Iphone">
+        </div>
+      </div>
+    </div>
+    <div class="geoReference clearfix">
+      <h1>GEO-REFERENCED ORTHOMOSAIC</h1>
+      Receive automatic ortho-rectifed, georeferenced mosaics that are GIS ready.
+      <div class="geoButtonWrap clearfix">
+        <ul class="clearfix">
+          <li><a href="#infield">INSTANT IN-FIELD INTERACTIVE MOSAIC</a></li>
+          <li class="active"><a href="#orthomosaic">GEO-REFERENCED ORTHOMOSAIC</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="geoReferenceImageWrap clearfix">
+      <div class="geoReferenceImage geoRefrences">
+        <img src="images/geo_reference_image.png">
+      </div>
+      <div class="geoReferenceInfield geoRefrences">
+        <div class="infieldImage">
+          <img src="images/infield_image.png">
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="geoBottom">
+      Superimpose processed imagery over Google Maps or download and import directly into Google Earth.
+    </div>
+  </div>
+</section>
+<!-- Manage Data Ends -->
+
+<section id="big_data">
+
+  <div class="container">
+    <div class="bigDataContainer clearfix">
+      <h1>SOLVING BIG DATA FOR EASE OF USE AND SCALABILITY</h1>
+
+      <div class="bigDataInfoWrap clearfix">
+        <div class="span6 bigDataLeftInfo">
+          <h2>SECURE</h2>
+
+          <p>All data is tramitted over a secure connection (SSL) and is encrypted on disk for additional security</p>
+
+          <p>Cloud storage is processed through Amazon S3, which is designed for 99.999999999% durability and 99.99%
+            availability; also designed to withstand concurrent data loss in two facilities</p>
+
+          <p>Option to place data in archive or regular storage </p>
+        </div>
+        <div class="bigDataImageWrap">
+          <div class="dataStorage">
+            <img src="images/cloud_storage.png">
+          </div>
+          <div class="sllImageWrap">
+            <div class="sll">
+              <img src="images/sll.png">
+            </div>
+            <div class="archiving">
+              <img src="images/archiving.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="automatedProContainer clearfix">
+      <div class="span5">
+        <h2>AUTOMATED PROCESSING</h2>
+        <p>PrecisionMapper controls the end-to-end process to achieve accurate results with any type of data</p>
+        <p>Consistent data inputs ensure accurate data processing.</p>
+        <p>When data is collected at a high level of confidence, it is automatically processed without a human touch
+          point.</p>
+        <p>Automation results in rapid turnaround time and the ability to provide the most competitive prices in the
+          industry.</p>
+      </div>
+      <div class="span6 sensorWrap">
+        <p>GEO-REFERENCED ORTHOMOSAIC DATA TYPES</p>
+
+        <div class="sensorImageWrap clearfix">
+          <div class="visualWrap clearfix">
+              <div class="spriteSensor_1">
+                <img src="images/visiual.png">
+              </div>
+              <div class="spriteSensor_2">
+                <img src="images/multispectral.png">
+              </div>
+              <div class="spriteSensor_3">
+                <img src="images/thermal.png">
+              </div>
+          </div>
+          <div class="lidarWrap">
+              <div class="spriteSensor_4">
+                <img src="images/lidar.png">
+              </div>
+              <div class="spriteSensor_5">
+                <img src="images/hyperspectral.png">
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Big Data Ends -->
+
+<section id="pricing" class="pricingBg">
+  <div class="container pricingPlanContainner">
+    <h1>pricing</h1>
+
+    <h2>data management</h2>
+
+    <div class="row">
+      <div class="span7">
+        <div class="dataManageMentWrap clearfix">
+          <div class="acreData">
+            <p>$0.20<span>*</span></p>
+
+            <p>/acre</p>
+          </div>
+          <div class="acreDataDesc">
+            <p>- 1 year of quick access storage</p>
+
+            <p>- Unlimited uploading</p>
+
+            <p>- Unlimited downloading</p>
+
+            <p>- <span>*</span>$0.60 for below 50m altitude</p>
+          </div>
+
+        </div>
+        <div class="dataManageMentWrap clearfix">
+          <div class="acreData">
+            <p>$0.12<span>*</span></p>
+
+            <p>/acre</p>
+          </div>
+          <div class="acreDataDesc archivalStorageWrap">
+            <p>1 Year of archival storage <span>(data retrieval time up-to 5hrs)</span></p>
+          </div>
+
+        </div>
+      </div>
+      <div class="span5">
+        <ul class="dataManagementList">
+          <li class="clearfix">
+            <i class="imageSprite iconTickMark"></i>
+
+            <p>$0.00 Seat license</p>
+          </li>
+          <li class="clearfix">
+            <i class="imageSprite iconTickMark"></i>
+
+            <div class="managementInnerData">
+              <p>Infield Application</p>
+              <ul>
+                <li>+ Survey uploading</li>
+                <li>+ Instant interactive mosaic</li>
+              </ul>
+            </div>
+          </li>
+          <li class="clearfix">
+            <i class="imageSprite iconTickMark"></i>
+
+            <div class="managementInnerData">
+              <p>Cloud Survey Management</p>
+              <ul>
+                <li>+ Unlimited sharing</li>
+                <li>+ Interactive geo-referenced orthomosaic</li>
+                <li>+ Desktop and mobile optimized interface</li>
+                <li>+ Unlimited user seats</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12 dataProcessingWrap">
+        <h2>data processing</h2>
+
+        <div class="processingPoints">
+          <p>Geo-Referenced Orthotiles</p>
+
+          <p>GEO-Referenced Orthomosaic</p>
+
+          <p>KML Tiles</p>
+        </div>
+      </div>
+    </div>
+    <h3>using precsionhawk uav</h3>
+
+    <div class="row processingUAV">
+      <div class="span3 uavPricing">
+        <div class="acreData">
+          <p>$0.10</p>
+
+          <p>/acre</p>
+        </div>
+        <div class="uavReadings">
+          <p>Visual/Multispectral</p>
+
+          <p>120 - 200m</p>
+
+          <p>3.5 - 6cm/px</p>
+        </div>
+      </div>
+      <div class="span3 uavPricing">
+        <div class="acreData">
+          <p>$0.25</p>
+
+          <p>/acre</p>
+        </div>
+        <div class="uavReadings">
+          <p>Visual/Multispectral</p>
+
+          <p>81 - 120m</p>
+
+          <p>2.6 - 3.5cm/px</p>
+        </div>
+      </div>
+      <div class="span3 uavPricing">
+        <div class="acreData">
+          <p>$0.45</p>
+
+          <p>/acre</p>
+        </div>
+        <div class="uavReadings">
+          <p>Visual/Multispectral</p>
+
+          <p>51 - 80m</p>
+
+          <p>1.6 - 2.5cm/px</p>
+        </div>
+      </div>
+      <div class="span3 uavPricing">
+        <div class="acreData">
+          <p>$0.70</p>
+
+          <p>/acre</p>
+        </div>
+        <div class="uavReadings">
+          <p>All sensors</p>
+
+          <p>Visual/Multispectral</p>
+
+          <p>Below 30-50m</p>
+
+          <p>1 - 1.5cm/px</p>
+        </div>
+      </div>
+    </div>
+    <h3>Using your own aerial survey data</h3>
+
+    <div class="row processingSurveyWrap">
+      <div class="span7">
+        <div class="dataManageMentWrap clearfix">
+          <div class="acreData">
+            <p>$0.10 - $1.80</p>
+
+            <p>/acre</p>
+          </div>
+          <div class="acreDataDesc">
+            <p>Data from your Hardware</p>
+
+            <p>Any sensor</p>
+
+            <p>Any resolution</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="span4">
+        <div class="surveyNote">
+          <p>Lower rates may be available
+            depending on data format</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12 dataExportWrap">
+        <div class="row">
+          <div class="span3">
+            <h2>data exports</h2>
+
+            <p>Compatible Software</p>
+          </div>
+          <div class="span3">
+            <p>ArcGIS</p>
+
+            <p>Global Mapper</p>
+          </div>
+          <div class="span3">
+            <p>Quantum GIS</p>
+
+            <p>AutoCAD</p>
+          </div>
+          <div class="span3">
+            <p>Google Earth</p>
+
+            <p>ERDASffImagine</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- pricing section ends -->
+
+
+<section id="hardware" class="hardwareOption">
+  <div class="container">
+    <div class="planeWrap">
+      <img src="images/hardware_plane_img.png" alt="plane image" title="precisionhawk plane"/>
+    </div>
+    <div class="row">
+      <div class="span6 hardwareDescp">
+        <h2>our hardware option</h2>
+
+        <h3>precisionhawk lancaster mk iii</h3>
+        <ul>
+          <li>+ Lightweight (3 pounds)</li>
+          <li>+ Small (3 feet from nose to tail)</li>
+          <li>+ Silent (runs on electric motors)</li>
+          <li>+ Extremely easy to use</li>
+          <li>+ User-Friendly Mission Planning Software</li>
+        </ul>
+        <a href="http://precisionhawk.com/" title="learn more about precisionhawk" target = "_blank">learn more about precisionhawk
+          <i class="imageSprite iconRightArrw"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- hardware section ends -->
+
+<section id="contact" class="contactWrap">
+  <div class="container">
+    <div class="row">
+      <div class="span4 contactAddressMob">
+        <div class="contactMedia">
+          <p>Media Contact</p>
+
+          <p>Lia Reich</p>
+
+          <p>919-590-9280</p>
+          <a href="mailto:lreich@precisionhawk.com" title="Mail to Lia Reich">lreich@precisionhawk.com</a>
+
+          <p class="careerOptHead">Career opportunities</p>
+          <a href="mailto:iwant2work@precisionhawk.com" title="mail to know career opportunities">iwant2work@precisionhawk.com</a>
+        </div>
+      </div>
+      <div class="span4 contactLogo">
+        <div class="phLogoFooter">
+          <img src="images/pm_footer_logo.jpg" alt="precision hawk logo" title="precisionhawk logo"/>
+        </div>
+      </div>
+      <div class="span4 contactSocialMedia">
+        <div class="findUsLinksWrap clearfix">
+          <h3>find us</h3>
+
+          <div class="socialLinksWrap">
+            <a href="https://twitter.com/precisionmapper" target="_blank" title="twitter link"><i class="imageSprite iconTwitter"></i> Twitter</a>
+            <a href="https://www.facebook.com/pages/Winehawk-Labs/416968105021936?fref=ts" target="_blank" title="Facebook link"><i class="imageSprite iconFacebook"></i> Facebook</a>
+            <a href="https://www.youtube.com/user/Winehawklabs?feature=" target="_blank" title="YouTube link"><i class="imageSprite iconPlayBlack"></i> YouTube</a>
+            <a href="http://instagram.com/precisionhawk"  target="_blank" title="Instagram link"><i class="imageSprite iconPlayBlack"></i>
+              Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row footerInfo">
+      <p><span>Main Phone:  1-888-958-1451</span>    <span>Fax:  (919)400-4336</span>   <span>Email: <a href="mailto:info@precisionhawk.com">info@precisionhawk.com</a></span></p>
+    </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+</div>
+
+</body>
+</html>
