@@ -13,72 +13,33 @@ body{
 }
 .container{
 	margin: 0 auto;
-	width: 840px;
-	background: #f1f1f1;
+	width: 740px;
 }
-/*Table structure*/
-.bordered {
-    border: 1px solid #dddddd;
-    border-radius: 5px 5px 5px 5px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-top: none;
-}
-.bordered th:first-child {
-    border-radius: 5px 0 0 0;
-    -moz-border-radius: 5px 0 0 0;
-    -webkit-border-radius: 5px 0 0 0;
-}
+/*Table structure For Stick Column */
 
-.bordered th:last-child {
-    border-radius: 0 5px 0 0;
-    -moz-border-radius: 0 5px 0 0;
-    -webkit-border-radius: 0 5px 0 0;
-}
-.bordered td:first-child, .bordered th:first-child {
-    border-left: medium none;
-}
-.bordered th {
-    background-color: #eeeeee;
-    border-top: medium none;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    border-left: 1px solid #dddddd;
-    border-top: 1px solid #dddddd;
-    padding: 6px 15px;
-    text-align: left;
-}
-.bordered td {
-    border-left: 1px solid #dddddd;
-    border-top: 1px solid #dddddd;
-    padding: 12px 15px;
-    text-align: left;
-    word-wrap: break-word;
-}
-
-/*For Stick CSS*/
-.bordered th{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 .recentUpdateWrap{
     position: relative;
 }
+.recentUpdateWrap table{
+     margin-left: 349px;
+     border-spacing: 0;
+}
 .recentUnpaid{
-    width: 800px;
+    width: 700px;
     overflow-x: scroll;
 }
-.recentUpdateWrap table{
-    /*margin-left: 130px;*/
-    /*margin-left: 230px;*/
-    margin-left: 361px;
-}
-.recentUpdateWrap table th,
-.recentUpdateWrap table td{
+.recentUnpaid th, .recentUnpaid td {
+    border-left: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px 15px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.recentUnpaid th {
+    background-color: #eee;
+    border-top: medium none;
 }
 .fixed_col, .fixed_col2, .fixed_col3 {
     position: absolute;
@@ -89,14 +50,14 @@ body{
     border-bottom: 1px solid #ddd;
 }
 .fixed_col{
-    width: 105px;
+    width: 75px;
     left: 0;
 }
 .fixed_col2{
-    width: 68px;
-    left: 132px;
+    width: 80px;
+    left: 106px;
 }
 .fixed_col3{
     width: 103px;
-    left: 229px;
+    left: 216px;
 }
